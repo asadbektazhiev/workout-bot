@@ -18,6 +18,6 @@ public class AuthorCommand implements Command {
 
     @Override
     public String execute(String[] args) {
-        return "Авторы: Тажиев Асадбек, Кириллов Егор (группа МЕН-251015).";
+        return "Авторы: Тажиев Асадбек (группа МЕН-251015).";
     }
 }
