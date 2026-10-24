@@ -1,4 +1,4 @@
-package bot;
+package bot.dialog;
 
 public class PlanCommand implements DialogCommand {
     @Override

@@ -1,4 +1,4 @@
-package handler;
+package bot.handler;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

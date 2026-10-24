@@ -1,8 +1,12 @@
-package handler;
+package bot.handler;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import bot.handler.CamelCaseHandler;
+import bot.handler.ConsoleApp;
+import bot.handler.ExerciseNameHandler;
+import bot.handler.UpperCaseHandler;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
