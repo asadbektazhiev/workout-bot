@@ -1,4 +1,4 @@
-package bot;
+package bot.command;
 
 public class AboutCommand implements Command {
     @Override

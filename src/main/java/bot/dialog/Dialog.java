@@ -1,4 +1,4 @@
-package bot;
+package bot.dialog;
 
 public interface Dialog {
     String start();               // первый вопрос

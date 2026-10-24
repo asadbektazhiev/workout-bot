@@ -1,5 +1,10 @@
 package bot;
 
+import bot.command.*;
+import bot.dialog.Dialog;
+import bot.dialog.DialogCommand;
+import bot.dialog.PlanCommand;
+
 import java.util.Arrays;
 import java.util.Optional;
 

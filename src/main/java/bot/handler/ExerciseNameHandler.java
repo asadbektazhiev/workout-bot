@@ -1,4 +1,4 @@
-package handler;
+package bot.handler;
 
 public class ExerciseNameHandler implements TextHandler {
     @Override

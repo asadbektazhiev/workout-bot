@@ -1,4 +1,4 @@
-package bot;
+package bot.command;
 
 public interface Command {
     String name();                    // имя без "/", например "author"

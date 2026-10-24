@@ -1,4 +1,6 @@
-package bot;
+package bot.dialog;
+
+import bot.command.Command;
 
 public interface DialogCommand extends Command {
     Dialog createDialog();

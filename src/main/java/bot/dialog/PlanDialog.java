@@ -1,4 +1,4 @@
-package bot;
+package bot.dialog;
 
 public class PlanDialog implements Dialog {
     private enum Step { GOAL, PLACE, DAYS, DONE }
