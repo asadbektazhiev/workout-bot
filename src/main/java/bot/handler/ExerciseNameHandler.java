@@ -2,11 +2,6 @@ package bot.handler;
 
 public class ExerciseNameHandler implements TextHandler {
     @Override
-    public String name() {
-        return "exercise";
-    }
-
-    @Override
     public String handle(String input) {
         String[] words = input.trim().toLowerCase().split("\\s+");
         StringBuilder sb = new StringBuilder();
