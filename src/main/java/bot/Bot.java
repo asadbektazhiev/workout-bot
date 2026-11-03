@@ -8,16 +8,14 @@ import bot.dialog.PlanCommand;
 import java.util.Arrays;
 import java.util.Optional;
 
-/** Мозг бота. Принимает строку, возвращает ответ. Про консоль ничего не знает. */
 public class Bot {
     private final CommandRegistry registry;
-    private Dialog currentDialog;   // активный диалог, null если его нет
+    private Dialog currentDialog;
 
     public Bot(CommandRegistry registry) {
         this.registry = registry;
     }
 
-    /** Собирает бота со всеми командами. Новую команду добавляем только здесь. */
     public static Bot createDefault() {
         CommandRegistry registry = new CommandRegistry();
         registry.register(new AuthorCommand());
