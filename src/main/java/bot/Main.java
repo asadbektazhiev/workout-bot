@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Bot bot = Bot.createDefault();
         System.out.println(bot.greeting());
+        System.out.println("Для выхода: /exit");
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
